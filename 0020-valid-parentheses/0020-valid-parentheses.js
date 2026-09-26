@@ -17,8 +17,6 @@ var isValid = function(s) {
             if (paren[top] !== s[i] ) return false;
             else openStack.pop();
         } else openStack.push(s[i]);
-
-        console.log(openStack)
     }
 
     return openStack.length === 0;
