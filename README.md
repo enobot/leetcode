@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/enobot/leetcode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/enobot/leetcode/tree/master/0014-longest-common-prefix) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/enobot/leetcode/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 ## Hash Table
 |  |
 | ------- |
