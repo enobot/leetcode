@@ -25,8 +25,9 @@ var reverseWords = function (s) {
     }
 
     if (currWord !== '') ans.push(currWord);
-    console.log(ans)
+
     let left = 0, right = ans.length - 1;
+
     while (left < right) {
         let temp = ans[left];
         ans[left] = ans[right];
@@ -34,5 +35,6 @@ var reverseWords = function (s) {
         left++;
         right--;
     }
+    
     return ans.join(' ');
 };
