@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/enobot/leetcode/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/enobot/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/enobot/leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0443-string-compression](https://github.com/enobot/leetcode/tree/master/0443-string-compression) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/enobot/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1768-merge-strings-alternately](https://github.com/enobot/leetcode/tree/master/1768-merge-strings-alternately) |
 ## Trie
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/enobot/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/enobot/leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0443-string-compression](https://github.com/enobot/leetcode/tree/master/0443-string-compression) |
 | [1768-merge-strings-alternately](https://github.com/enobot/leetcode/tree/master/1768-merge-strings-alternately) |
 ## Euclidean Algorithm
 |  |
