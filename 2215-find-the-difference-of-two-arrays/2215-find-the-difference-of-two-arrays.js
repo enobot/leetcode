@@ -8,11 +8,11 @@ var findDifference = function(nums1, nums2) {
     let set2 = new Set (nums2);
     let arr1 = [], arr2 = [];
 
-    for (num of set1) {
+    for (let num of set1) {
         if (!set2.has(num)) arr1.push(num);
     }
 
-    for (num of set2) {
+    for (let num of set2) {
         if (!set1.has(num)) arr2.push(num);
     }
 
