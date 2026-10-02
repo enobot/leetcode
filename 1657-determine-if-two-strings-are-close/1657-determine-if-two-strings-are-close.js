@@ -21,21 +21,14 @@ var closeStrings = function(word1, word2) {
     for (let char of map1.keys()) {
         if (!map2.has(char)) return false;
     }
-
     
-    for (let char of map2.keys()) {
-        if (!map1.has(char)) return false;
+    let counts1 = [...map1.values()].sort((a, b) => a - b);
+    let counts2 = [...map2.values()].sort((a, b) => a - b);
+
+    for (let i = 0; i < counts1.length; i++) {
+        if (counts1[i] !== counts2[i]) return false;
     }
 
-    let count1 = [...map1.values()];
-    let count2 = [...map2.values()];
-
-    let sort1 = count1.sort((a, b) => a - b);
-    let sort2 = count2.sort((a, b) => a - b);
-
-    for (let i = 0; i < sort1.length; i++) {
-        if (sort1[i] !== sort2[i]) return false;
-    }
 
     return true;
 };
